@@ -72,6 +72,10 @@ The dataset is a public layoffs dataset containing company-level information suc
 ### Insights
 ![Insights](images/insights.png)
 
+## 🎥 Dashboard Interaction
+
+![Dashboard Demo](images/dashboard_demo.gif)
+
 ## 🚀 Future Improvements
 - Develop an interactive dashboard using Power BI
 - Enhance data modeling and visualization
