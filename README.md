@@ -67,15 +67,34 @@ and layoff dates (2020–2023).
   * Year & Month Slicers
 
 ## 📸 Dashboard Preview
-### Excel
-#### Overview
-#### Funding vs Layoffs
-#### Insights
 
-### Power BI
+### Excel Dashboard
 #### Overview
+![Excel Overview](images/excel_overview.png)
+
 #### Funding vs Layoffs
+![Excel Funding](images/excel_funding.png)
+
 #### Insights
+![Excel Insights](images/excel_insights.png)
+
+🎥 Excel Dashboard Interaction
+![Excel Demo](images/excel_demo.gif)
+
+---
+
+### Power BI Dashboard
+#### Overview
+![PowerBI Overview](images/powerbi_overview.png)
+
+#### Funding vs Layoffs
+![PowerBI Funding](images/powerbi_funding.png)
+
+#### Insights
+![PowerBI Insights](images/powerbi_insights.png)
+
+🎥 Power BI Dashboard Interaction
+![PowerBI Demo](images/powerbi_demo.gif)
 
 ## ⚠️ Notes
 * Avg Layoffs per Company & Avg Funds per Company may differ 
