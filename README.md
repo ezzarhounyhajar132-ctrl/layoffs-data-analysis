@@ -1,6 +1,6 @@
 # Layoffs Data Cleaning & Exploratory Data Analysis (SQL)
 
-## 📌 Project Overview
+##  Project Overview
 This project presents an end-to-end data analytics workflow 
 applied to a global layoffs dataset.
 It covers data cleaning and transformation using SQL, 
@@ -10,14 +10,15 @@ The goal is to analyze layoffs by company, industry, country,
 and time, and to explore the relationship between funding and 
 layoffs to derive meaningful business insights.
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 * MySQL 8.0
 * SQL (CTEs, Window Functions, Aggregations)
-* Microsoft Excel (Dashboard & Analysis)
-* Power BI Desktop (Interactive Dashboard)
+* Microsoft Excel (Power Query, Pivot Tables, Dashboard & Analysis)
+* Power BI Desktop (Interactive Dashboard, 
+  DAX Measures, Data Modeling)
 * GitHub (Version Control)
 
-## 📂 Project Structure
+##  Project Structure
 * layoffs_raw.csv — original dataset
 * data_cleaning_layoffs.sql — SQL cleaning script
 * exploratory_data_analysis_layoffs.sql — SQL EDA queries
@@ -26,26 +27,26 @@ layoffs to derive meaningful business insights.
 * images/ — dashboard screenshots & demo
 * README.md — project documentation
 
-## 📊 Data Source
+##  Data Source
 The dataset is a public layoffs dataset containing company-level 
 information such as industry, location, company stage, funding, 
 and layoff dates (2020–2023).
 
-## 🧹 Data Cleaning Steps
+##  Data Cleaning Steps
 * Removed duplicates
 * Standardized company and industry names
 * Handled missing and null values
 * Converted date fields to proper date format
 * Validated numerical fields
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 * Identified companies with the highest total and percentage of layoffs
 * Analyzed layoffs by industry and country
 * Examined layoffs across company funding levels and stages
 * Investigated trends over time (yearly and monthly)
 * Ranked top companies by annual layoffs
 
-## 📊 Dashboards
+##  Dashboards
 
 ### Excel Dashboard
 * Interactive dashboard using Pivot Tables, Charts, and Slicers
@@ -53,8 +54,9 @@ and layoff dates (2020–2023).
   * Layoffs overview
   * Funding vs layoffs analysis
   * Key insights
+  * Dashboard instructions
 
-### Power BI Dashboard ✅ NEW
+### Power BI Dashboard  NEW*
 * Interactive dashboard with 4 pages:
   * **Overview** – Total layoffs, trends & top companies
   * **Funding vs Layoffs** – Funding analysis & comparisons
@@ -96,7 +98,7 @@ and layoff dates (2020–2023).
 🎥 Power BI Dashboard Interaction
 ![PowerBI Demo](images/powerbi_demo.gif)
 
-## ⚠️ Notes
+##  Notes
 * Avg Layoffs per Company & Avg Funds per Company may differ 
   between Excel and Power BI when filtering by year, due to 
   different aggregation methods. Overall totals are consistent.
@@ -104,15 +106,15 @@ and layoff dates (2020–2023).
   Excel and Power BI due to different ranking methodologies.
   Power BI uses dynamic DAX RANKX while Excel uses manual RANK formula.
 
-## 📌 Key Insights
-* Layoffs surged by 703% in 2022 compared to 2021
+##  Key Insights
+* Layoffs surged by 915% in 2022 compared to 2021
 * The United States accounts for the highest number of layoffs
 * Highly funded companies still experienced massive layoffs
 * Post-IPO companies recorded the highest layoffs
 * Retail & Consumer sectors were the most affected
 * Layoffs peaked between March and November 2022
 
-## 🔄 Data Pipeline
+##  Data Pipeline
 1. Raw dataset (CSV)
 2. Data cleaning and transformation using SQL (MySQL)
 3. Exploratory Data Analysis (SQL)
