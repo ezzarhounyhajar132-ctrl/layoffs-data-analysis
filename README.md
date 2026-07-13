@@ -93,7 +93,7 @@ and layoff dates (2020–2023).
 ![PowerBI Funding](images/powerbi_funding.png)
 
 #### Insights
-![PowerBI Insights](images/powerbi_insights.png)
+![PowerBI Insights](images/powerbi_Insights.png)
 
 🎥 Power BI Dashboard Interaction
 ![PowerBI Demo](images/powerbi_demo.gif)
