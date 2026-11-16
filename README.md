@@ -33,6 +33,7 @@ information such as industry, location, company stage, funding,
 and layoff dates (2020–2023).
 
 ##  Data Cleaning Steps
+* Created new staging tables
 * Removed duplicates
 * Standardized company and industry names
 * Handled missing and null values
