@@ -82,7 +82,7 @@ and layoff dates (2020–2023).
 ![Excel Insights](images/excel_insights.png)
 
 🎥 Excel Dashboard Interaction
-![Excel Demo](images/excel_demo.gif)
+![Excel Demo](images/excel_demo_.gif)
 
 ---
 
